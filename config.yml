@@ -3,11 +3,11 @@
 
 RuhohSpec: '1.0'
 theme : twitter
-production_url : http://sample.com
+production_url : http://jamisondance.com
 
 posts:
-  permalink: /:categories/:title/
-  summary_lines: 20
+  permalink: /:year/:i_month/:i_day/:title
+  summary_lines: 10
   latest: 10
 
 pages:
