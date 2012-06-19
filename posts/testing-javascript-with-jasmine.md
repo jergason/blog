@@ -70,19 +70,12 @@ actual testing part, you need a project that looks like mine.
     Save this code as `package.json` inside the folder we created:
 
          {
-
              "name": "bathtub",
-
              "description": "All in the bathtub, all the time.",
-
              "version": "0.0.1",
-
              "author": "Jamison Dance <jergason@gmail.com> (http://jamisondance.com)",
-
              "main": "./bathtub.js",
-
              "keywords": ["bathtub", "awesome"]
-
          }
 
     I don’t want to give a full overview of what the `package.json` file
@@ -92,23 +85,19 @@ actual testing part, you need a project that looks like mine.
 3.  Save this file as `bathtub.js` in the same directory:
 
          (function () {
-
            "use strict";
 
-           var inTheBathtub = function(string) {
-
+           function inTheBathtub(string) {
              return string + " in the bathtub.";
-
            }
 
            module.exports = inTheBathtub;
-
          }());
 
     This is our JavaScript project. It is a simple function that appends
     ” in the bathtub” to a string that is passed in to it. The
     `module.exports = inTheBathtub;` line lets npm and Ender know that
-    when someone type `require('bathtub')`, it should return our
+    when someone types `require('bathtub')`, it should return our
     function.
 
 4.  Now run `npm link` to create a symbolic link between our project and
@@ -126,19 +115,12 @@ actual testing part, you need a project that looks like mine.
     the following code:
 
          //Load our function
-
          var bathtub = require('bathtub');
-
          describe('bathtub', function () {
-
            it("should append \"in the bathtub\" to a string", function () {
-
              var input = "Nothing delights me more than the fine scent of Jarlsberg cheese";
-
              expect(bathtub(input)).toEqual(input + " in the jacuzzi.");
-
            });
-
          });
 
     Jasmine lets you write tests that read something like English. We
@@ -149,7 +131,6 @@ actual testing part, you need a project that looks like mine.
 3.  Run our spec:
 
          cd ..
-
          jasmine-node spec/
 
     If you followed the code exactly, you should see a notice telling
