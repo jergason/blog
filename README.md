@@ -1,35 +1,27 @@
-A default blog scaffold for **ruhoh** compatible static blog parsers.
+My blog, based off of the [ruhoh](https://github.com/ruhoh/ruhoh.rb.git) static
+site engine.
 
-**This version is for [ruhohSpec v1.0](http://ruhoh.com/universal-blog-api/) and is only compatible with ruhoh gem 1.0.x.x**
 
-See <http://ruhoh.com> for more information.
+## Installing Dependencies
 
-## Usage and Documentation
+```bash
+gem install ruhoh
+```
 
-See <http://ruhoh.com/usage> for full usage and documentation.
+## Testing
 
-Currently the only parser is available in ruby as a ruby gem:
+See the site in action without compiling things with:
 
-````bash
-$ gem install ruhoh --version '1.0.0.alpha'
-$ ruhoh help
-````
+```bash
+rackup
+```
 
-Once you have the gem you can run your blog locally:
+## Compilation
 
-Assume USERNAME is your GitHub username.
+```bash
+ruhoh compile
+```
 
-````bash
-$ git clone git://github.com/ruhoh/blog.git USERNAME.ruhoh.com
-$ cd USERNAME.ruhoh.com
-$ rackup -p 9292
-````
+## Deployment
 
-Using your GitHub username is useful for automatically publishing to ruhoh.com
-
-For all publishing options including self-hosting see: <http://ruhoh.com/usage/publish>
-
-## License
-
-Released under the [MIT License](http://www.opensource.org/licenses/MIT)
-
+TODO: set up a git hook that installs the blog upon pushing.
