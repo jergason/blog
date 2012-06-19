@@ -1,6 +1,6 @@
 layout : disqus
 disqus :
-  short_name : jekyllbootstrap
+  short_name : jamisondancesblog
 livefyre :
   site_id : 123
 intensedebate :
