@@ -33,7 +33,7 @@ I also spent a few months working with Google maps and mapping in general to
 develop a photo underlay for a sensor product. I created the basic prototype
 which is now being used in production. I also know more about
 [Mercator projection](http://en.wikipedia.org/wiki/Mercator_projection) than
-I ever though possible.
+I ever thought possible.
 
 In April I started a new job at [i.tv](http://i.tv), a startup that is trying
 to change how we watch TV. I had played with [Backbone](http://backbonejs.org)
