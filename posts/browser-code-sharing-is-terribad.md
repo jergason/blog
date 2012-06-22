@@ -1,7 +1,7 @@
 ---
 title: Browser Code Sharing Is Terribad
 date: '2012-06-21'
-description: In which I talk about the awful, awful state of client code sharing.
+description: Sharing code for the browser is terribad.
 categories: coding
 tags: [javascript, code-sharing, client]
 
