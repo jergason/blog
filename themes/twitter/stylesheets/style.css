@@ -71,7 +71,7 @@ html, body {
 }
 .post > h3.title span.date {
   position:absolute;
-  right: 22px;
+  right: 21px;
   font-size:0.9em;
 }
 .post > .more {

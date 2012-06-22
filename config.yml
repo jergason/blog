@@ -2,8 +2,8 @@
 # Usage: http://ruhoh.com/usage/configure/ 
 
 RuhohSpec: '1.0'
-theme : twitter
-production_url : http://jamisondance.com
+theme: twitter
+production_url: "http://jamisondance.com"
 
 posts:
   permalink: /:year/:i_month/:i_day/:title
