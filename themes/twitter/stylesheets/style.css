@@ -2,12 +2,39 @@
 html, body {
   background-color: #eee;
 }
+
+p {
+  font-size: 16px;
+  line-height: 22.5px;
+  margin-bottom: 22.5px;
+}
+
+li {
+  font-size: 16px;
+  line-height: 22.5px;
+  margin-bottom: 15px;
+}
+
+.post-content h2 {
+  margin-bottom: 10px;
+}
+
 .navbar {
   margin-bottom: 0;
 }
-.navbar .container{ 
-  width:940px;
+
+.navbar .container{
+  width: 724px;
 }
+
+.posts-container {
+  width: 100%;
+}
+
+.container {
+  width: 724px;
+}
+
 .container > footer {
   margin-top: 20px;
 }
@@ -39,11 +66,11 @@ html, body {
 .post > h3.title {
   position:relative;
   padding-top:10px;
-  border-top:3px solid #eee;
+  border-bottom:3px solid #eee;
 }
-.post > h3.title span.date { 
+.post > h3.title span.date {
   position:absolute;
-  right:0;
+  right: 20px;
   font-size:0.9em;
 }
 .post > .more {
