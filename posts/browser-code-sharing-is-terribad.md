@@ -5,8 +5,6 @@ description: In which I talk about the awful, awful state of client code sharing
 categories: coding
 tags: [javascript, code-sharing, client]
 
-
-type: draft
 ---
 
 [node.js](http://nodejs.org) has the best package management and code sharing
@@ -46,9 +44,14 @@ arrived at the most common way of sharing code, which is to *hard-code urls to
 3rd-party websites* in your HTML. If that doesn't sound insane to you, repeat
 it again. Want to use jQuery in your app? Throw in a
 `<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>` and hope
-they never get hacked or go down or have network problems. Some people
-use GitHub as their own personal CDN for their project, which is sketchy at
-best. You never want your app to break because someone else's site is down.
+they never get hacked or go down or have network problems.
+
+Some people use GitHub as their own personal CDN for their project, which is
+sketchy at best. You never want your app to break because someone else's site
+is down or you get rate-limited.
+
+<blockquote class="twitter-tweet" data-in-reply-to="215962283627642880"><p>@<a href="https://twitter.com/jergason">jergason</a> we’re not a CDN (and you’ll see a perf hit in doing so). We rate limit you on those blob accesses, too.</p>&mdash; Zach Holman (@holman) <a href="https://twitter.com/holman/status/216150775620046849" data-datetime="2012-06-22T12:48:55+00:00">June 22, 2012</a></blockquote>
+<script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Dependencies are bad. Dependencies that depend on third-party services to
 obtain are terribad.
@@ -67,7 +70,7 @@ where it is hosted, download it, and copy it in to your public directory for
 your app. What happens when you want to update twenty dependencies, or, more
 likely, the same dependency across twenty projects? Congratulations, you have
 just been demoted from software engineer to data entry technician. Manually
-downloading code turns you in to a human dependency resolver. 
+downloading code turns you in to a human dependency resolver.
 
 
 ## The Holy Grail of Browser Code Sharing
