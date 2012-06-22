@@ -1,6 +1,6 @@
 ---
 
-title: Convert a Vim window to HTML
+title: Convert a Vim Window to HTML
 date: '2012-04-11'
 categories: coding
 tags: [vim]

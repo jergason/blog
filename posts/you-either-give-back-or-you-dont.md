@@ -9,7 +9,8 @@ categories: rants
 
 There is an interesting discussion on Hacker News right now about using
 tech skills to do something meaningful. One strategy is just to use your
-skills to make money, and give some to charities. 
+skills to make money, and then give some to charities or worthy causes when
+you are rich.
 
 kentf had a very
 insightful [comment](http://news.ycombinator.com/item?id=2882437):

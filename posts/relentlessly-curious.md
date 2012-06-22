@@ -1,6 +1,6 @@
 ---
 
-title: The Cuckoo's Egg is about being relentlessly curious
+title: The Cuckoo's Egg Is About Being Relentlessly Curious
 date: '2012-03-01'
 categories: rants
 tags: [books, curiosity, learning]

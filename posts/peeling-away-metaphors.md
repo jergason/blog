@@ -1,6 +1,6 @@
 ---
 
-title: Peeling away metaphors
+title: Peeling Away Metaphors
 date: '2012-02-09'
 categories: rants
 tags: [learning, metaphors]

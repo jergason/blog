@@ -1,5 +1,5 @@
 ---
-title: Learning Vim, or, You Will Briefly Suck At
+title: Learning Vim, or, You Will Briefly Suck At Computers
 tags: [vim, productivity]
 date: '2011-08-10'
 categories: coding

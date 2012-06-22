@@ -1,6 +1,6 @@
 ---
 
-title: Editing Remote Files In Vim
+title: Editing Remote Files in Vim
 date: '2012-02-22'
 categories: coding
 tags: [vim]

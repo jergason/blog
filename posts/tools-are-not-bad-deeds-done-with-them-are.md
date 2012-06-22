@@ -1,6 +1,6 @@
 ---
 
-title: Tools are not bad, deeds done with them are
+title: Tools Are Not Bad, Deeds Done With Them Are
 date: '2012-04-05'
 categories: rants
 tags: [culture]

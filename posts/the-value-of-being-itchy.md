@@ -1,6 +1,6 @@
 ---
 
-title: The value of being itchy
+title: The Value Of Being Itchy
 date: '2012-03-01'
 categories: rants
 tags: [curiosity, learning]

@@ -1,5 +1,5 @@
 ---
-title: Security theater and the TSA
+title: Security theater and The TSA
 date: '2012-02-02'
 categories: rants
 tags: [tsa, security]

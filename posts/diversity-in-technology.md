@@ -1,6 +1,6 @@
 ---
 
-title: Diveristy in Technology
+title: Diveristy In Technology
 date: '2012-03-07'
 categories: rants
 tags: [diversity, technology]

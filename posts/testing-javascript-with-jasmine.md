@@ -1,6 +1,6 @@
 ---
 
-title: Testing JavaScript With Jasmine
+title: Testing JavaScript with Jasmine
 date: '2011-10-26'
 categories: coding
 tags: [javascript, jasmine, testing]

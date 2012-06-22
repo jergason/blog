@@ -1,6 +1,6 @@
 ---
 
-title: "Worse is better: The Innovator's Dilemma in programming languages"
+title: "Worse Is Better: The Innovator's Dilemma In Programming Languages"
 date: '2012-03-22'
 categories: rants
 tags: [languages, worse-is-better]

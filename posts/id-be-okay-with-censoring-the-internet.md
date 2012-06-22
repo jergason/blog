@@ -1,5 +1,5 @@
 ---
-title: "I'd be okay with censoring the Internet."
+title: "'I'd be okay with censoring the Internet.'"
 date: '2012-01-19'
 categories: rants
 tags: [sopa, internet]
