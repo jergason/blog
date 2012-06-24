@@ -14,20 +14,21 @@ to sanely manage dependencies across multiple projects, npm gets everything
 right.
 
 This post isn't about things that are awesome and sane and right. It is about
-something that painful and terrible and wrong. Sharing code for the browser sucks.
-Its suckiness is even worse because sharing code in node is so good. It is
-fluffy unicorns-good to the flaming rabid human-sized ant-monsters-bad of the
+something that is painful and terrible and wrong. Sharing code for the browser
+sucks. Its suckiness is even worse because sharing code in node is so good. It
+is fluffy unicorns good to the flaming rabid human-sized ant-monsters bad of the
 browser.
 
 ## Who Cares?
 
-What you make easy affects what people do. Sure, you *can* share code, but how
-many more libraries never started or died inside someone's project directory
-because they couldn't do something as simple as `npm publish .`?
+What you make easy affects what people do. Sure, sharing browser code is
+*possible*, but how many browser libraries have died inside a project directory
+because the author couldn't do something as simple as `npm publish .` to share
+them?
 
 Bad client-side code charing also encourages reinventing the wheel. If the
-barrier to using someone else's code is high enough, you are likely to shrug
-your shoulders and bang out the code yourself.
+barrier to using someone else's code is high enough, you are more likely to
+shrug your shoulders and bang out the code yourself.
 
 ## No Browser Code Sharing
 
@@ -44,11 +45,12 @@ arrived at the most common way of sharing code, which is to *hard-code urls to
 3rd-party websites* in your HTML. If that doesn't sound insane to you, repeat
 it again. Want to use jQuery in your app? Throw in a
 `<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>` and hope
-they never get hacked or go down or have network problems.
+they never get hacked or go down or have network problems. You never want your
+app to break because of someone else's problems.
 
-Some people use GitHub as their own personal CDN for their project, which is
-sketchy at best. You never want your app to break because someone else's site
-is down or you get rate-limited.
+Some people use GitHub as their own personal CDN, which is sketchy at best.
+Linking to a GitHub repo has all of the same drawback as linking to
+`code.jquery.com`, but will also get you rate-limited.
 
 <blockquote class="twitter-tweet" data-in-reply-to="215962283627642880"><p>@<a href="https://twitter.com/jergason">jergason</a> we’re not a CDN (and you’ll see a perf hit in doing so). We rate limit you on those blob accesses, too.</p>&mdash; Zach Holman (@holman) <a href="https://twitter.com/holman/status/216150775620046849" data-datetime="2012-06-22T12:48:55+00:00">June 22, 2012</a></blockquote>
 <script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -87,20 +89,19 @@ My ideal tool for browser code sharing looks like this:
 * The ability to concatenate and minify all code and dependencies in to one
   file for production.
 * Some kind of plugin architecture to support code that uses AMD, CommonJS, and
-  nothing at all.
+  nothing at all, since we still haven't agreed on a module syntax.
 
-Ideally this tool would use `npm` somehow, since it already a standard package
-metadata format and thousands of modules that can run in the browser. It would
-suck to have to publish to two places if you were developing platform-agnostic
-code.
+Ideally this tool would use `npm` somehow, since it already has a standard
+package metadata format and thousands of modules that can run in the browser.
+It would suck to have to publish to two places if you were developing
+platform-agnostic code.
 
 
 ## Bright Shining Lights of Browser Code Sharing
 
 Browser code sharing sucks, but some people are trying to make it better. I
-have varying opinions on all of these tools, which I will write about later,
-but all of them are at least pushing the idea of easily reusable client-side
-code.
+have varying opinions on these tools, but all of them are at least pushing the
+idea of easily reusable client-side code.
 
 * [Jam](https://github.com/caolan/jam) - npm-like thing for AMD code.
 * [Volo](https://github.com/volojs/volo) - build tool that includes commands to
