@@ -5,7 +5,6 @@ description: How to mock dependencies to unit-test AMD modules written for requi
 categories: coding
 tags: [javascript, testing, requirejs, AMD]
 
-type: draft
 ---
 
 I am trying to get a large Backbone app under test, and have been wrestling
