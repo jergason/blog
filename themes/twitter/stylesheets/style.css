@@ -65,10 +65,15 @@ html, body {
 
 /* posts index */
 .post > h3.title {
-  position:relative;
-  padding-top:10px;
-  border-bottom:3px solid #eee;
+  position: relative;
+  padding: 5px 0 5px;
+  border-bottom: 3px solid #eee;
 }
+
+.post:first-child > h3.title {
+  border-top: 3px solid #eee;
+}
+
 .post > h3.title span.date {
   position:absolute;
   right: 21px;
