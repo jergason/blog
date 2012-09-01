@@ -68,11 +68,14 @@ I hear the "wat" echo from across the internet. A continuation is a bigram
 ending in a specific word. The continuation count of a word is how many different
 words it follows. An example to the rescue!
 
-Say we are looking at a corpus and find all the occurences of the word 'cannon'.
-
+Say we are looking at a corpus for  all the occurences of the word 'cannon',
+and find the following list.
 
 * ship's cannon
 * potato cannon
+* candy cannon
+* water cannon
+* caliber cannon
 
 Say we are analyzing data form memes. The word 'hurp' might appear relatively
 frequently.
