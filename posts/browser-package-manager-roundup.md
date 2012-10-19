@@ -2,7 +2,7 @@
 title: "Browser Package Manager Roundup"
 date: '2012-06-24'
 description: Comparison of different browser package managers.
-categories: code
+categories: coding
 tags: [javascript, browser, code-sharing]
 
 type: draft

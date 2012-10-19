@@ -2,10 +2,8 @@
 title: The Categorical Distribution In JavaScript
 date: '2012-10-15'
 description: How to pick between lots of different things
-categories: code
-tags: [javascript, statistics]
-
-type: draft
+categories: coding
+tags: [javascript, statistics, math]
 ---
 
 ## Categorical Distributions Are Useful
