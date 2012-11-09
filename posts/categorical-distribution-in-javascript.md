@@ -14,11 +14,16 @@ is a simple but powerful idea that answers the following question:
 > How do I pick randomly from many different options when the options have
 > different probabilities for being chosen?
 
+When would you ever use this? A few ideas:
+
+* Showing a random post based on number of votes, so more popular posts show up more.
+* Simulating random events in a game, where some events are more likely than others.
+* Controlling movement of a robot by randomly picking direction based on probabilities of collision
+
 It is a valuable tool in your developer toolkit, and is pretty simple to boot.
 With the magic of words and the also magic of JavaScript, I'll walk you through
 it. We will also touch on some basic topics in math and probability theory, but
 you don't need any background to understand.
-
 
 ## Fruitroulette
 
@@ -180,15 +185,22 @@ probabilityTotal = probabilitiesForFruits.reduce(function(probTotalSoFar, prob) 
 console.log("probability total for all fruits is", probabilityTotal);
 ```
 
-
 ## Find It On GitHub
 
 If this looks interesting to you, I wrote a little library for working with
-categorical distirbutions in JavaScript. You can find it
-[here](https://github.com/jergason/categorical).
+categorical distributions in JavaScript. You can find it
+[here](https://github.com/jergason/categorical). It does some handy optimizations
+to make creating and drawing from the distribution fast.
 
 Also, if math/computer science stuff is cool to you, you should check out the
 [Papers in CS](https://groups.google.com/forum/?fromgroups#!forum/papers-in-computer-science)
 group. We pick a cool, accessible and foundational paper in Computer Science, 
 and meet via Google Hangout to discuss it. It happens about once a month, and
 anyone, of any experience level, is welcome. You should join us!
+
+## Further Reading
+
+After finishing this post, I read Keith Schwarz's amazing article called
+[Darts, Dice, and Coins](http://www.keithschwarz.com/darts-dice-coins/). It
+is basically the Sistine Chapel of writeups on categorical distributions and
+algorithms for creating and drawing from them quickly.
