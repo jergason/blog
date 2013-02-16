@@ -117,6 +117,6 @@ session if you want to relive the experience before the videos go up.
 
 ## Acknowledgements
 
-Thanks to [Brandon Hayes](http://twitter.com/tehviking),
-[Tom Dale](http://twitter.com/tomdale) and [Stanley Stewart](http://twitter.com/fivetanley)
+Thanks to [Brandon Hays](http://twitter.com/tehviking),
+[Tom Dale](http://twitter.com/tomdale) and [Stanley Stuart](http://twitter.com/fivetanley)
 for reviewing this.
